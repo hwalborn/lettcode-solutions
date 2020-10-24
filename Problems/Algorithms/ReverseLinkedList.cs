@@ -7,22 +7,24 @@ namespace Problems.Algorithms
     {
         public ListNode Solve(ListNode head)
         {
+            if (head == null)
+            {
+                return head;
+            }
             var newHead = Reverse(head, null);
             return newHead;
         }
 
         public ListNode Reverse(ListNode node,ListNode? previousNode)
         {
+            var tempNode = node.next;
             if (node.next == null)
             {
                 node.next = previousNode;
                 return node;
             }
-            if (previousNode != null)
-            {
-                previousNode.next = node;
-            }
-            return Reverse(node.next, node);
+            node.next = previousNode;
+            return Reverse(tempNode, node);
         }
 
         public void Go()
