@@ -8,3 +8,13 @@
 /Users/h.walborn/OneDrive - CRITEO/CodeChallenges/LeetCode/obj/Debug/netcoreapp3.1/LeetCode.AssemblyInfo.cs
 /Users/h.walborn/OneDrive - CRITEO/CodeChallenges/LeetCode/obj/Debug/netcoreapp3.1/LeetCode.dll
 /Users/h.walborn/OneDrive - CRITEO/CodeChallenges/LeetCode/obj/Debug/netcoreapp3.1/LeetCode.pdb
+/Users/h.walborn/Code/CodeChallenges/LeetCode/bin/Debug/netcoreapp3.1/LeetCode.deps.json
+/Users/h.walborn/Code/CodeChallenges/LeetCode/bin/Debug/netcoreapp3.1/LeetCode.runtimeconfig.json
+/Users/h.walborn/Code/CodeChallenges/LeetCode/bin/Debug/netcoreapp3.1/LeetCode.runtimeconfig.dev.json
+/Users/h.walborn/Code/CodeChallenges/LeetCode/bin/Debug/netcoreapp3.1/LeetCode.dll
+/Users/h.walborn/Code/CodeChallenges/LeetCode/bin/Debug/netcoreapp3.1/LeetCode.pdb
+/Users/h.walborn/Code/CodeChallenges/LeetCode/obj/Debug/netcoreapp3.1/LeetCode.csprojAssemblyReference.cache
+/Users/h.walborn/Code/CodeChallenges/LeetCode/obj/Debug/netcoreapp3.1/LeetCode.AssemblyInfoInputs.cache
+/Users/h.walborn/Code/CodeChallenges/LeetCode/obj/Debug/netcoreapp3.1/LeetCode.AssemblyInfo.cs
+/Users/h.walborn/Code/CodeChallenges/LeetCode/obj/Debug/netcoreapp3.1/LeetCode.dll
+/Users/h.walborn/Code/CodeChallenges/LeetCode/obj/Debug/netcoreapp3.1/LeetCode.pdb

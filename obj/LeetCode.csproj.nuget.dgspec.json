@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/h.walborn/OneDrive - CRITEO/CodeChallenges/LeetCode/LeetCode.csproj": {}
+    "/Users/h.walborn/Code/CodeChallenges/LeetCode/LeetCode.csproj": {}
   },
   "projects": {
-    "/Users/h.walborn/OneDrive - CRITEO/CodeChallenges/LeetCode/LeetCode.csproj": {
+    "/Users/h.walborn/Code/CodeChallenges/LeetCode/LeetCode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/h.walborn/OneDrive - CRITEO/CodeChallenges/LeetCode/LeetCode.csproj",
+        "projectUniqueName": "/Users/h.walborn/Code/CodeChallenges/LeetCode/LeetCode.csproj",
         "projectName": "LeetCode",
-        "projectPath": "/Users/h.walborn/OneDrive - CRITEO/CodeChallenges/LeetCode/LeetCode.csproj",
+        "projectPath": "/Users/h.walborn/Code/CodeChallenges/LeetCode/LeetCode.csproj",
         "packagesPath": "/Users/h.walborn/.nuget/packages/",
-        "outputPath": "/Users/h.walborn/OneDrive - CRITEO/CodeChallenges/LeetCode/obj/",
+        "outputPath": "/Users/h.walborn/Code/CodeChallenges/LeetCode/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/h.walborn/.nuget/NuGet/NuGet.Config"
