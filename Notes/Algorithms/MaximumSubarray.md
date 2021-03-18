@@ -16,7 +16,7 @@ I ended up looking at the discussion and taking some advice from there. I left m
 ## Iterations
 starting with index 1....
 
-|_________________________________________________|______________________|________|_______________________________|
+|-------------------------------------------------|----------------------|--------|-------------------------------|
 |maxSum = -1, currentMax = -1, currentElement = -2| -1 + -2 = -3, -2 < -3| -1 > -3| currentMax = -1, maxumSum = -1|
 |maxSum = -1, currentMax = -1, currentElement = -2| -1 + -1 = -3, -2 < -3| -1 > -3| currentMax = -1, maxSum = -1  |
 |maxSum = -1, currentMax = -1, currentElement = -2| -1 + -1 = -3, -2 < -3| -1 > -3| currentMax = -1, maxSum = -1  |
