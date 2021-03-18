@@ -14,7 +14,9 @@ I ended up looking at the discussion and taking some advice from there. I left m
 * Final step of iteration is to assign the value of maxSum to be either the existing value of maxSum or the currentMax value
 
 ## Iterations
-starting with index 1....
+starting with index 1
+
+
 |  |                                                 |                      |        |                               |
 |  |-------------------------------------------------|----------------------|--------|-------------------------------|
 |1.|maxSum = -1, currentMax = -1, currentElement = -2| -1 + -2 = -3, -2 < -3| -1 > -3| currentMax = -1, maxumSum = -1|
