@@ -39,9 +39,9 @@ namespace Problems.Algorithms
         }
         public void Go()
         {
-            var correct = "()[]{}";
-            var huh = "([)]";
-            var bop = "((({[{}]})))";
+            // var correct = "()[]{}";
+            // var huh = "([)]";
+            // var bop = "((({[{}]})))";
             var boop = "(((({[{}]})))";
             Console.WriteLine(Solve(boop));
             Console.WriteLine(Solve("}"));
