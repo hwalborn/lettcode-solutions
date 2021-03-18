@@ -15,17 +15,12 @@ I ended up looking at the discussion and taking some advice from there. I left m
 
 ## Iterations
 starting with index 1....
-
-|-------------------------------------------------|----------------------|--------|-------------------------------|
-|maxSum = -1, currentMax = -1, currentElement = -2| -1 + -2 = -3, -2 < -3| -1 > -3| currentMax = -1, maxumSum = -1|
-|maxSum = -1, currentMax = -1, currentElement = -2| -1 + -1 = -3, -2 < -3| -1 > -3| currentMax = -1, maxSum = -1  |
-|maxSum = -1, currentMax = -1, currentElement = -2| -1 + -1 = -3, -2 < -3| -1 > -3| currentMax = -1, maxSum = -1  |
-|maxSum = -1, currentMax = -1, currentElement = 3 | -1 + 3 = 2, 3 > 2    | -1 < 3 | currentMax = 3, maxSum = 3    |
-|maxsum = 3, currentMax = 3, currentElement = 2   | 2 + 3 = 5, 5 > 2     | 3 < 5  | currentMax = 5, maxSum = 5    |
-|maxSum = 5, currentMax = 5, currentElement = -2  | -2 + 5 = 3, 3 > -2   | 5 > 3  | currentMax =  3, maxSum = 5   |
-|maxSum = 5, currentMax = 3, currentElement = 0   | 0 + 3 = 3, 3 > 0     | 5 > 3  | currentMax = 3, maxSum = 5    |
-|   |   |   |   |   |
-|---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+|  |                                                 |                      |        |                               |
+|  |-------------------------------------------------|----------------------|--------|-------------------------------|
+|1.|maxSum = -1, currentMax = -1, currentElement = -2| -1 + -2 = -3, -2 < -3| -1 > -3| currentMax = -1, maxumSum = -1|
+|2.|maxSum = -1, currentMax = -1, currentElement = -2| -1 + -1 = -3, -2 < -3| -1 > -3| currentMax = -1, maxSum = -1  |
+|3.|maxSum = -1, currentMax = -1, currentElement = -2| -1 + -1 = -3, -2 < -3| -1 > -3| currentMax = -1, maxSum = -1  |
+|4.|maxSum = -1, currentMax = -1, currentElement = 3 | -1 + 3 = 2, 3 > 2    | -1 < 3 | currentMax = 3, maxSum = 3    |
+|5.|maxsum = 3, currentMax = 3, currentElement = 2   | 2 + 3 = 5, 5 > 2     | 3 < 5  | currentMax = 5, maxSum = 5    |
+|6.|maxSum = 5, currentMax = 5, currentElement = -2  | -2 + 5 = 3, 3 > -2   | 5 > 3  | currentMax =  3, maxSum = 5   |
+|7.|maxSum = 5, currentMax = 3, currentElement = 0   | 0 + 3 = 3, 3 > 0     | 5 > 3  | currentMax = 3, maxSum = 5    |
