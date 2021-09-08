@@ -37,7 +37,29 @@ namespace Problems.Algorithms
             }
         }
 
+        // find the max depth of the tree
+        private int depth (TreeNode root)
+        {
+            if (root == null) {
+                return 0;
+            }
+            return Math.Max(depth(root.left), depth(root.right)) + 1;
+        }
+
         public bool Solution(TreeNode root)
+        {
+            if (root == null)
+            {
+                return true;
+            }
+            var left = depth(root.left);
+            var right = depth(root.right);
+
+            // check depth of both sides, then go down and do again
+            return Math.Abs(left - right) <= 1 && Solution(root.left) && Solution(root.right);
+        }
+
+        public bool SolutionOld(TreeNode root)
         {
             if (root == null)
             {
@@ -55,6 +77,7 @@ namespace Problems.Algorithms
             }
         }
 
+        // nearly what I was doing!
         private int FindDepth(TreeNode node, int count)
         {
             if (node == null)
