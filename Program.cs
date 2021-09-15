@@ -18,7 +18,8 @@ namespace LeetCode
                 {
                     throw new Exception("THERE AIN'T NO FILES HERE");
                 }
-                var className = firstFile.Name.Split('.').FirstOrDefault();
+                // var className = firstFile.Name.Split('.').FirstOrDefault();
+                var className = "FirstBadVersion";
                 var obj = Activator.CreateInstance(null, $"Problems.Algorithms.{className}") as ObjectHandle;
                 ITest testFile = (ITest)obj.Unwrap();
                 testFile.Go();

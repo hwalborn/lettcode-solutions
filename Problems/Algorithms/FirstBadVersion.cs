@@ -38,6 +38,30 @@ namespace Problems.Algorithms
             return Huh(badVersion, n);
         }
 
+        /**
+        * while true
+        * same breaks
+        * have variable "previousBadVersion"
+        */
+        public int Bah(int n) {
+            var previousBadVersion = n;
+            while (true)
+            {
+                if (!IsBadVersion(n) && IsBadVersion(n+1)) {
+                    return n+1;
+                } else if (!IsBadVersion(n-1) && IsBadVersion(n)) {
+                    return n;
+                } else if (IsBadVersion(n)) {
+                    decimal additionalAmount = n/2;
+                    previousBadVersion = n;
+                    n = (int)Math.Floor(additionalAmount);
+                } else {
+                    var nextCheck = n + Math.Floor((decimal)(previousBadVersion - n) / 2);
+                    n = (int)nextCheck;
+                }
+            }
+        }
+
         private int GetBadVersion(int prev, int curr, bool prevIsBadVersion)
         {
             var isBadVersion = IsBadVersion(curr);
@@ -77,7 +101,9 @@ namespace Problems.Algorithms
             // Console.WriteLine(Solve(1));
             //1595065042
             BadVersion = 1702766719;
-            Console.WriteLine(Solve(2126753390));
+            Console.WriteLine(Bah(2126753390));
+            // BadVersion = 4;
+            // Console.WriteLine(Bah(5));
         }
     }
 }

@@ -39,7 +39,6 @@ namespace Problems.Algorithms
         public void Go()
         {
             var solution = Solution(5);
-            var huh = 1;
         }
     }
 }
